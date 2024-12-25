@@ -1,9 +1,9 @@
 ## TTLCache - an in-memory cache with item expiration and generics
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/jellydator/ttlcache/v3.svg)](https://pkg.go.dev/github.com/jellydator/ttlcache/v3)
-[![Build Status](https://github.com/jellydator/ttlcache/actions/workflows/go.yml/badge.svg)](https://github.com/jellydator/ttlcache/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/inpos/ttlcache/v3.svg)](https://pkg.go.dev/github.com/inpos/ttlcache/v3)
+[![Build Status](https://github.com/inpos/ttlcache/actions/workflows/go.yml/badge.svg)](https://github.com/inpos/ttlcache/actions/workflows/go.yml)
 [![Coverage Status](https://coveralls.io/repos/github/jellydator/ttlcache/badge.svg?branch=master)](https://coveralls.io/github/jellydator/ttlcache?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jellydator/ttlcache/v3)](https://goreportcard.com/report/github.com/jellydator/ttlcache/v3)
+[![Go Report Card](https://goreportcard.com/badge/github.com/inpos/ttlcache/v3)](https://goreportcard.com/report/github.com/inpos/ttlcache/v3)
 
 ## Features
 - Simple API
@@ -18,7 +18,7 @@ items
 
 ## Installation
 ```
-go get github.com/jellydator/ttlcache/v3
+go get github.com/inpos/ttlcache/v3
 ```
 
 ## Usage
@@ -148,7 +148,7 @@ implementing custom strategies. The following example demonstrates
 how to limit the maximum memory usage of a cache to 5KiB:
 ```go
 import (
-    "github.com/jellydator/ttlcache"
+    "github.com/inpos/ttlcache"
     "github.com/DmitriyVTitov/size"
 )
 
